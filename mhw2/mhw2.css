@@ -1,0 +1,577 @@
+body{
+
+    background-color: #f5ebdc;
+    margin: 0px;
+
+
+}
+
+.header {
+    display: flex;
+ align-items: center;
+height: 80px;
+width: 100%;
+}
+
+.header div {
+   
+  width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    }
+
+    .header p{
+      font: 18px Flame;
+      color: #502314;
+      margin-left: 15px;
+    }
+
+.logo img  {
+width: 100%;
+height: 100%;
+margin-left: -60px;
+position:relative;
+}
+
+.ristorazione{
+  width: 30px;
+color: black;
+position: relative;
+left: 2%;
+
+}
+
+.franchisee{
+    width: 10px;
+    color: black;
+    position: relative;
+margin-left: -230px;
+border-left: 1px solid #502314;
+    }
+
+  .menu{
+    display: flex;
+            color: black;
+    justify-content: space-around;
+    }
+
+
+
+
+#offerta {
+    display: flex;
+   border: 1184px  ;
+   height: 511.7px;
+   background-color: #502314;
+   width: 100%;
+   border-radius: 20px 20px 20px 20px;
+   
+   }
+
+
+#offerta img {
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+#offerta h1{
+
+height: 70%;
+width: 50%;
+}
+#offerta p{
+font: 24px Flame ;
+color: #f5ebdc;
+    }
+
+    #offerta strong{
+        font: 40px Flame ;
+        color: #FF8732;
+            }
+
+.pulsante{
+    border-radius: 50px;
+background-color:  #D62300;
+height: 15%;
+width: 18%;
+margin-left: 40%;
+}
+
+.pulsante p{
+    color:#f5ebdc;
+font: 24px Flame;
+}
+
+#app{
+
+    display: flex;
+    color: #212529;
+    font: 14px Flame-Sans;
+    padding: 20px 0px;
+    flex-direction: column;
+   
+}
+
+
+
+
+
+
+#barra{
+    display: flex;
+    color: #212529;
+    font: 14px Flame-Sans;
+
+}
+
+.scarica-app{
+
+    display: flex;
+    color: #212529;
+    font: 14px Flame-Sans;
+background-color: #D62300;
+width: 60%;
+border-radius: 20px 20px 20px 20px;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 40px;
+height:  100%;
+}
+
+h5{
+    display: flex;
+    flex-direction: column;
+margin-top: 7%;
+}
+.scarica-app strong{ 
+    font: 40px Flame-Bold;
+    color: white;
+}
+
+.scarica-app p{ 
+    font: 20px Flame-Sans;
+    color: white;
+}
+
+
+.scarica-app img{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 70%;
+
+}
+
+
+
+#i-nostri-prodotti{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #e8dfcf;
+}
+
+.barra1{
+    display: flex;
+padding:0px 0px 0px 45px;
+}
+
+
+.barra2{
+    display: flex;
+   padding:0px 0px 0px 20px;
+}
+
+
+.barra3{
+    display: flex;
+    border: 700px;
+width: 100%;
+height: 100%;
+justify-content: center;
+ align-items: center;
+}
+
+
+.panino{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 25px;
+    margin-top: 20px;
+    height: 90%;
+    width: 20%;
+    position: relative; /* Aggiunto per posizionare l'immagine ingrandita all'interno del contenitore .panino */
+    text-align: center;
+}
+
+.panino img{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    transition: transform 0.3s; /* Aggiunto un effetto di transizione */
+}
+
+.panino:hover img {
+    transform: scale(1.2); /* Ingrossa l'immagine quando ci passi sopra con il mouse */
+}
+
+.panino2 img {
+    width: 120%; /* Aumenta le dimensioni dell'immagine ingrandita */
+    height: 120%;
+}
+
+
+.panino strong{
+
+font: 20px black ;
+}
+
+
+.barra1 p{
+
+    font: 14px Flame-Sans;
+    color: #502314;
+    margin-top: 25px;
+}
+
+.barra1 strong{
+
+    font: 40px Flame-Bold;
+    color: #FF8732;
+  margin-right: 10px;
+}
+.barra2 p{
+
+    font: 14px Flame-Sans;
+    color: #502314;
+ margin-left: 20px;
+    }
+
+
+.Best-Seller{
+
+border: 2px solid #502314;
+border-radius: 20px ;
+background-color: #e8dfcf;
+width: 100px;
+height: 40px;
+margin-right: 5px;
+}
+
+.Italian-Kings{
+
+    border: 2px solid #502314;
+    border-radius: 20px ;
+    background-color: #e8dfcf;
+    width: 110px;
+    height: 40px;
+    margin-right: 5px;
+    }
+
+    .Manzo{
+
+        border: 2px solid #502314;
+        border-radius: 20px ;
+        background-color: #e8dfcf;
+        width: 80px;
+        height: 40px;
+        margin-right: 5px;
+        }
+
+        .Pollo{
+
+            border: 2px solid #502314;
+            border-radius: 20px ;
+            background-color: #e8dfcf;
+            width: 70px;
+            height: 40px;
+            margin-right: 5px;
+            }
+              
+            .Insalate-Wrap{
+            
+                border: 2px solid #502314;
+                border-radius: 20px ;
+                background-color: #e8dfcf;
+                width: 140px;
+                height: 40px;
+                margin-right: 5px;
+                }
+
+                .King-Junior-Meal{
+            
+                    border: 2px solid #502314;
+                    border-radius: 20px ;
+                    background-color: #e8dfcf;
+                    width: 140px;
+                    height: 40px;
+                    margin-right: 5px;
+                    }
+
+  #novità{
+
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    background-color:#f5ebdc; 
+    }
+
+
+     .barra1n{
+      display: flex;
+   width: 100%;
+ 
+     }
+
+     .barra1n strong{
+
+        font: 40px Flame-Bold;
+        color: #FF8732;
+        padding: 10px 0px;
+        margin-left: 20px;
+    }
+
+     .barra1n  p{
+        color: #502314;
+font: 14px Flame-Sans;
+padding: 17px 0px;
+margin-left: 20px;
+        }
+        
+                    
+                    
+     .barra2n{
+     display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+.novv{
+margin: 0px 20px;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+width: 30%;
+height: 75%;
+margin-right: 20px;
+
+}
+.novm{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    width: 30%;
+    height: 86%;
+    }
+    .novv strong{
+        font: 20px Flame;
+        color: #212529;
+    margin-left: 20px;
+    }
+
+.novm strong{
+    font: 20px Flame;
+    color: #212529;
+margin-left: 20px;
+}
+.novm p{
+    font: 14px Flame-Sans;
+    color: #212529;
+    margin-left: 20px;
+}
+
+.novv img{
+width: 100%;
+height: 100%;
+border-radius: 20px 20px 0px 0px;
+}
+
+
+.novm img{
+width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0px 0px;
+    }
+
+#luogo{
+    display: flex;
+    font: 14px Flame-Sans;
+padding: 20px 45px;
+border: 1200px  ;
+height: 400px;
+background-color: #502314;
+border-radius: 20px 20px 20px 20px;
+margin: 30px 60px;
+}
+
+
+.pulsante1{
+    border-radius: 50px;
+    background-color:  #D62300;
+    height: 10%;
+    width: 10%;
+    margin: 350px 350px;
+    }
+    
+    .pulsante p{
+        color: white;
+        margin-left: 30px;
+    }
+
+#luogo img{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+
+}
+
+#finale{
+
+    display: flex;
+    font: 14px Flame-Sans;
+background-color: #502314;
+border: 1200px  ;
+height: 400px;
+width: 100%;
+flex-direction: column;
+
+}
+
+#arancione{
+    display: flex;
+    font: 14px Flame-Sans;
+width: 100%;
+height: 10%;
+background-color:  #FF8732;
+
+}
+
+#rosso{
+    display: flex;
+    font: 14px Flame-Sans;
+width: 100%;
+height: 10%;
+background-color: #D62300;
+
+}
+
+#marrone{
+    display: flex;
+    font: 14px Flame-Sans;
+width: 100%;
+height: 100%;
+background-color: #502314;
+
+}
+
+.blocco1{
+width: 20%;
+height: 50%;
+margin: 20px 20px;
+}
+
+.blocco2{
+    width: 20%;
+height: 50%;
+margin: 20px 0px;
+margin-left: 100px;
+    
+    }
+    
+    .blocco3{
+        width: 20%;
+height: 50%;
+margin: 20px 0px;
+        
+        }
+
+
+.parola{
+    width: 30%;
+height: 50%;
+margin: 50px 20px;
+}
+
+
+
+#bordo img{
+
+border-left: 1px solid white;
+height: 60%;
+margin: 70px 50px 70px 0px;
+
+}
+
+.bottone{
+    border-radius: 50px;
+    background-color:  #D62300;
+    height: 20%;
+    width: 40%;
+    
+    }
+
+
+
+    h2{
+font: 24px FLAME;
+color: #FF8732;
+    }
+
+    .blocco1 p{
+
+        font: 15px Flame-Sans;
+        color: #f5ebdc;
+    }
+
+.blocco2 p{
+
+    font: 14px Flame-Sans;
+    color: #f5ebdc;
+
+}
+        
+
+.blocco3 p{
+
+    font: 14px Flame-Sans;
+    color: #f5ebdc;
+
+}
+
+h3{
+    font: 35px FLAME;
+    color: #FF8732;
+    
+        }
+
+
+.parola p{
+
+    font: 18px Flame-Sans;
+    color : #e8dfcf;
+
+}
+
+.bottone p{
+
+    font: 18px Flame-Sans;
+color: white;
+padding: 10px;
+margin-left: 15px;
+}
+
